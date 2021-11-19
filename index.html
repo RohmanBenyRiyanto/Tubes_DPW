@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Awal Container Fluid -->
+    <div class="container-fluid" style="background-image: linear-gradient(rgb(247, 228, 228), rgba(254, 236, 236, 0))">
+      <!-- Awal Navbar -->
+      <div class="container col-12">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+          <!-- Icon dan Nama Resto -->
+          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bug-fill" viewBox="0 0 16 16">
+              <path d="M4.978.855a.5.5 0 1 0-.956.29l.41 1.352A4.985 4.985 0 0 0 3 6h10a4.985 4.985 0 0 0-1.432-3.503l.41-1.352a.5.5 0 1 0-.956-.29l-.291.956A4.978 4.978 0 0 0 8 1a4.979 4.979 0 0 0-2.731.811l-.29-.956z" />
+              <path
+                d="M13 6v1H8.5v8.975A5 5 0 0 0 13 11h.5a.5.5 0 0 1 .5.5v.5a.5.5 0 1 0 1 0v-.5a1.5 1.5 0 0 0-1.5-1.5H13V9h1.5a.5.5 0 0 0 0-1H13V7h.5A1.5 1.5 0 0 0 15 5.5V5a.5.5 0 0 0-1 0v.5a.5.5 0 0 1-.5.5H13zm-5.5 9.975V7H3V6h-.5a.5.5 0 0 1-.5-.5V5a.5.5 0 0 0-1 0v.5A1.5 1.5 0 0 0 2.5 7H3v1H1.5a.5.5 0 0 0 0 1H3v1h-.5A1.5 1.5 0 0 0 1 11.5v.5a.5.5 0 1 0 1 0v-.5a.5.5 0 0 1 .5-.5H3a5 5 0 0 0 4.5 4.975z"
+              />
+            </svg>
+            <div class="fw-bold">
+              Duyung Hall
+              <br />
+              & Resto
+            </div>
+          </a>
+          <!-- Icon dan Nama Resto -->
+
+          <!-- Item Navbar -->
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-dark fw-bold">Home</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark fw-bold">About</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark fw-bold">Menu</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark fw-bold">Contact</a></li>
+          </ul>
+          <!-- Akhir Item Navbar -->
+          <!-- Button Reservation -->
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn text-light fw-bold" type="submit" style="background-color: #f54748">Reservation</button>
+          </div>
+          <!-- Akhir Button Reservation -->
+        </header>
+      </div>
+      <!-- Akhir Navbar -->
+
+      <!-- Awal Header -->
+      <div class="container col-12 pt-5 d-flex pe-5">
+        <div class="header-1 col-5 justify-content-center align-content-center">
+          <h1 class="fw-bold fs-1">Meet, Eat & Enjoy The True Taste From</h1>
+          <h1 class="fw-bold fs-1" style="color: #f54748">Duyung Hall & Resto</h1>
+          <p class="fs-6">Duyung Hill Resto adalah restoran yang menyajikan masakan lezat</p>
+          <br />
+          <div class="d-flex justify-content-between">
+            <button class="btn text-light fw-bold" type="submit" style="background-color: #f54748">
+              Reservation
+              <span
+                ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="header2 col-7 ps-5">
+          <div class="image d-flex">
+            <div class="image-kiri pe-3">
+              <div class="image1 pb-3">
+                <img height="160" width="120" src="src/img/menu-1.jpg" alt="" class="rounded-3 shadow-sm" />
+              </div>
+              <div class="image2">
+                <img height="100" width="100" src="src/img/menu-2.jpg" alt="" class="rounded-3 shadow-sm" />
+              </div>
+            </div>
+            <div class="image3 align-content-center">
+              <img height="370" width="250" src="src/img/menu-1.jpg" alt="" class="rounded-3 shadow-sm" />
+            </div>
+            <div class="image-kanan ps-3">
+              <div class="image1 pb-3">
+                <img height="160" width="120" src="src/img/menu-4.jpg" alt="" class="rounded-3 shadow-sm" />
+              </div>
+              <div class="image2">
+                <img height="100" width="100" src="src/img/menu-5.jpg" alt="" class="rounded-3 shadow-sm" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Header -->
+      <!-- Awal Popup Nasgor -->
+      <div class="box">
+        <div class="br-box container d-flex shadow-lg">
+          <div class="Nasgor p-2">
+            <img height="100" width="100" src="src/img/menu-7.jpg" alt="" class="rounded" />
+          </div>
+          <div class="keterangan p-1 ps-2">
+            <p class="fw-bold">Nasi Goreng</p>
+            <div class="icon d-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star" viewBox="0 0 16 16">
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+                />
+              </svg>
+            </div>
+            <p class="pt-3 fw-bold" style="color: #f54748">Rp. <span style="color: black">30.000</span></p>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Popup Nasgor -->
+      <!-- Footer Button Header -->
+      <div class="container col-12 d-flex p-0">
+        <div class="container col-6">
+          <div class="sosmedicon">
+            <a href="https://www.instagram.com/" style="padding-right: 10px; text-decoration: none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#F54748" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/" style="padding-right: 10px; text-decoration: none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#F54748" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                />
+              </svg>
+            </a>
+            <a href="https://www.whatsapp.com/" style="padding-right: 10px; text-decoration: none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#F54748" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="container col-6 d-flex text-end justify-content-end align-items-center">
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#F54748" class="bi bi-mouse" viewBox="0 0 16 16">
+              <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm4 8a4 4 0 0 1-8 0V5a4 4 0 1 1 8 0v6zM8 0a5 5 0 0 0-5 5v6a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5z" />
+            </svg>
+          </a>
+          <p class="text-center pt-3" style="color: #f54748">Scroll down</p>
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#F54748" class="bi bi-arrow-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- Akhir Footer Button Header -->
+    </div>
+    <!-- Akhir Container Fluid -->
+    <br /><br /><br />
+    <br /><br /><br />
+    <!-- Awal Container Fluid 2 -->
+    <div class="container-fluid" style="background-color: white">
+      <!-- Awal Abou Us -->
+      <div class="container col-12 d-flex">
+        <div class="col-6 d-inline-block">
+          <img height="500" width="500" src="src/img/menu-1.jpg" alt="" style="border-radius: 80px 150px 10px 80px" />
+        </div>
+        <div class="col-6">
+          <h3>Tentang Kami</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut dignissimos dolores quos quia repellendus debitis voluptate labore illo cupiditate non ad asperiores laborum animi nobis, provident ipsum sapiente amet esse.</p>
+          <ul class="list-group list-unstyled">
+            <li class="list-item d-flex">
+              <img height="32" src="src/img/dish-1.png" alt="" />
+              <div class="text pb-0 ps-3">
+                <p class="fw-bold">Et facilisis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque illo neque corporis, explicabo est?</p>
+              </div>
+            </li>
+            <li class="list-item d-flex">
+              <img height="32" src="src/img/dish-1.png" alt="" />
+              <div class="text pb-0 ps-3">
+                <p class="fw-bold">Et facilisis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque illo neque corporis, explicabo est?</p>
+              </div>
+            </li>
+            <li class="list-item d-flex">
+              <img height="32" src="src/img/dish-1.png" alt="" />
+              <div class="text pb-0 ps-3">
+                <p class="fw-bold">Et facilisis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque illo neque corporis, explicabo est?</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <!-- Awal Best Menu -->
+      <div class="container-fluid col-12">
+        <div class="container col-12">
+          <h3 class="fw-bold">Best Menu</h3>
+          <div class="header d-flex p-0">
+            <div class="container col-6 p-0">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, eveniet.</p>
+            </div>
+            <div class="container col-6 text-end p-0 d-flex justify-content-end">
+              <div class="swiper-button-prev-unique1">
+                <button class="border-0 bg-transparent">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#F54748" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="swiper-button-next-unique1">
+                <button class="border-0 bg-transparent">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#F54748" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="swiper-container1">
+          <div class="swiper-wrapper" style="display: flex">
+            <div class="swiper-slide">
+              <div class="cardborder-0" style="width: 18rem">
+                <img src="src/img/menu-1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card border-0" style="width: 18rem">
+                <img src="src/img/menu-1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card border-0" style="width: 18rem">
+                <img src="src/img/menu-1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card border-0" style="width: 18rem">
+                <img src="src/img/menu-1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card border-0" style="width: 18rem">
+                <img src="src/img/menu-1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card border-0" style="width: 18rem">
+                <img src="src/img/menu-1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card border-0" style="width: 18rem">
+                <img src="src/img/menu-1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="gradient1"></div>
+        <div class="gradient2"></div>
+      </div>
+      <!-- Akhir Best Menu -->
+      <!-- Akhir Abou Us -->
+    </div>
+    <!-- Akhir Container Fluid 2-->
+    <br /><br /><br /><br />
+    <!-- Awal Container Fluid 3 -->
+    <center>
+      <div class="container-fluid col-12 bg-danger">
+        <div class="container col-12">
+          <h3 class="fw-bold">What Our Customer says</h3>
+          <div class="header d-flex p-0">
+            <div class="container col-6 text-end p-0 d-flex justify-content-end"></div>
+          </div>
+        </div>
+        <br /><br /><br />
+     <br><br><br><br><br><br><br>   
+    </center>
+    <!-- Akhir Container Fluid 3 -->
+    
+    <!-- Awal Container Fluid 4 -->
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 p-5">
+            <h3>Contact Us</h3>
+            <div class="nama d-flex">
+              <div class="col-6 pe-5">
+                <label for="exampleInputPassword1" class="form-label">First Name : </label>
+                <input type="password" class="form-control" id="exampleInputPassword1" />
+              </div>
+              <div class="col-6 pe-5">
+                <label for="exampleInputPassword1" class="form-label">Last Name : </label>
+                <input type="password" class="form-control" id="exampleInputPassword1" />
+              </div>
+            </div>
+            <div class="email pe-5">
+              <label for="exampleInputPassword1" class="form-label">Last Name : </label>
+              <input type="password" class="form-control" id="exampleInputPassword1" />
+            </div>
+            <div class="choice pe-5 d-flex flex-nowrap p-5">
+              <input id="newbie" type="radio" name="levels" value="newbie" />
+              <label for="newbie">Newbie Kitten</label><br />
+              <input id="intermediate" type="radio" name="levels" value="intermediate" />
+              <label for="intermediate">Developing Student</label><br />
+              <input id="newbie" type="radio" name="levels" value="newbie" />
+              <label for="newbie">Newbie Kitten</label><br />
+              <input id="intermediate" type="radio" name="levels" value="intermediate" />
+              <label for="intermediate">Developing Student</label><br />
+              <input id="newbie" type="radio" name="levels" value="newbie" />
+              <label for="newbie">Newbie Kitten</label><br />
+              <input id="intermediate" type="radio" name="levels" value="intermediate" />
+              <label for="intermediate">Developing Student</label><br />
+            </div>
+            <div class="email pe-5">
+              <label for="exampleInputPassword1" class="form-label">Message : </label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <br />
+            <button class="btn text-light fw-bold" type="submit" style="background-color: #f54748">
+              Send
+              <span
+                ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="col-6 p-0">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.797486083262!2d109.23547628974266!3d-7.437428509385021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655c2aca9f99f5%3A0xc888dffa95d947a0!2sRM%20PONDOK%20DUYUNG!5e0!3m2!1sid!2sid!4v1636956662178!5m2!1sid!2sid"
+              width="680"
+              height="650"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    <!-- Akhir Container Fluid 4 -->
+    <!-- Awal Container Fluid 5 -->
+    <footer class=" d-flex bg-danger p-5">
+        <div class="col-3">
+          <h5>Resto</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sed quam soluta fugiat, labore rem est, consectetur qui, reiciendis veritatis autem ea minima? Numquam minus quidem sequi totam voluptatibus pariatur.</p>
+        </div>
+        <div class="col-3">
+          <h5>Get in touch</h5>
+          <ul class="list-group list-unstyled">
+            <li class="list-item d-flex">
+              <img height="32" src="src/img/dish-1.png" alt="" />
+              <div class="text pb-0 ps-3">
+                <p>Purwokerto Banyumas Indonesia</p>
+              </div>
+            </li>
+            <li class="list-item d-flex">
+              <img height="32" src="src/img/dish-1.png" alt="" />
+              <div class="text pb-0 ps-3">
+                <p>email@hello.com</p>
+              </div>
+            </li>
+            <li class="list-item d-flex">
+              <img height="32" src="src/img/dish-1.png" alt="" />
+              <div class="text pb-0 ps-3">
+                <p>+1 386-688-3295</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, quam laboriosam. Beatae, cumque. Molestias eaque esse neque? Dolor, vel! Natus, quo nihil facilis excepturi recusandae distinctio illo ipsa earum possimus!</p>
+        </div>
+        <div class="col-3">
+          <h5>Join a Newsletter</h5>
+          <form action="">
+            <label for="basic-url" class="form-label">Your Email</label>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" />
+            </div>
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </footer>
+      <footer class="bg-warning">
+        copyright Duyung Hall & Resto
+      </footer>
+    <!-- Akhir Container Fluid 5 -->
+    
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script type="module">
+      var swiper = new Swiper(".swiper-container1", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next-unique1",
+          prevEl: ".swiper-button-prev-unique1",
+        },
+      });
+    </script>
+
+  </body>
+</html>
