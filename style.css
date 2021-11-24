@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+.nav-link:hover{
+  color: #f54748;
+  text-decoration: underline;
+}
+
 .image-kiri {
   text-align: end;
   transform: translateY(5%);
