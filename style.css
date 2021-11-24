@@ -43,12 +43,14 @@
 .icon {
   transform: translateY(-80%);
 }
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
+
 .swiper-container1 {
   width: 95%;
+  height: 100%;
+  overflow: hidden;
+}
+.swiper-container2 {
+  width: 100%;
   height: 100%;
   overflow: hidden;
 }
@@ -58,29 +60,33 @@
   font-size: 18px;
   background: #fff;
 }
+.swiper-slide2 {
+  text-align: center;
+  font-size: 18px;
+}
 
 svg bi .bi-chevron-left {
   color: black;
 }
 
-.swiper-button-prev-unique {
+.swiper-button-prev-unique2 {
   background-color: #f54747a2;
   height: 60px;
   width: 60px;
   border-radius: 10px;
-  transform: translateY(300%);
+  transform: translate(-60%, 300%);
 }
-.swiper-button-prev-unique svg {
+.swiper-button-prev-unique2 svg {
   transform: translateY(40%);
 }
-.swiper-button-next-unique {
+.swiper-button-next-unique2 {
   background-color: #f54747bd;
   height: 60px;
   width: 60px;
   border-radius: 10px;
-  transform: translateY(300%);
+  transform: translate(60%, 300%);
 }
-.swiper-button-next-unique svg {
+.swiper-button-next-unique2 svg {
   transform: translateY(40%);
 }
 #Footer1 p,
@@ -93,4 +99,8 @@ label {
 }
 p {
   color: #666666;
+}
+
+.customer p {
+  color: white;
 }
